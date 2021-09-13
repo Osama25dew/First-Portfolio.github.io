@@ -1,0 +1,365 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navigation */
+#navi{
+    width: 100%;
+    overflow: hidden;
+    height: 50px;
+    position: fixed;
+}
+#navi h1{
+    float: left;
+    color: white;
+    margin: 2px 0 0 15%;
+    font-size:40px;
+}
+#menu{
+    overflow: hidden;
+    margin-left: 38%;
+}
+#navi ul{
+    display: block;
+}    
+#navi ul li{
+    list-style-type: none;
+    float: left;
+}
+#navi ul li a{
+    display: block;
+    padding: 15px 18px;
+    padding-bottom: 17px;
+    text-decoration: none;
+    color: white;
+}
+#navi ul li a:hover{
+    font-size: 1.2em;
+    transition-duration: .8s; 
+    font-weight: bold;
+}
+
+/*main section*/
+.main-section{
+    background-image: url("umbrella-4692572_1920.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100p;
+}
+.main-section-content{
+    color: white;
+    display: inline-block;
+    margin: 25vh 0 0 18.5%;
+    width: 100%;
+}
+.main-section-content h1{
+    font-size: 70px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+
+}
+.main-section-content h2{
+    font-size: 40px;
+    margin-left: 6%;
+
+}
+.main-section-content h3{
+    font-size: 30px;
+    margin-left: -3%;
+}
+.animation-text{
+    padding-top: 10px;
+}
+.animation-text h2{
+    font-size: 30px;
+}
+.main-section-content button{
+    margin-left: 6%;
+    margin-top: 10px;
+    margin-bottom: 110px;
+    padding: 10px;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    border-radius: .5em;
+    font-weight: bold ;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.main-section-content button:hover{
+    background-color: #3E3D43;
+    border: 1px solid #3E3D43;
+    color: white;
+    transition-duration: .5s;
+}
+
+/*About me section*/
+.about_me{
+    border-bottom: 30px solid #000;
+    border: 3em solid black;
+    background-image: url("milky-way-1023340_1920.jpg") ;  
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;  
+    width: 100%;
+}
+#about_me_heading{
+    color: white;
+    text-align: center;
+    margin: auto;
+    margin-top: 30px;
+}
+#about_me_heading h2{
+    font-size: 4em;
+}
+#about_me_heading h3{
+
+}
+#about_me_portion{
+    background-color: white;
+    width: 80%;
+    eight: 70vh;
+    justify-content: center;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    border-radius: .3em;
+    overflow: hidden;
+}
+#about_me_portion img{
+    height: 80%;
+    width: 33%;
+    margin: 50px 0 0 4%;
+    border-radius: .4em;
+    float: left;
+}
+#about_me_portion #h3{
+    float: left;
+    width: 60%;
+    padding: 1em;
+    font-size: 1.6em;
+    padding-bottom: .4em;
+    margin-left: 1%;
+    margin-top: 28px;
+
+}
+#about_me_portion p{
+    float: left;
+    width: 60%;
+    padding: 1em;
+    padding-top: 0%;
+    line-height: 1.3em;
+    font-size: 1.2em;
+    margin-left: 1%;
+    margin-bottom: 50px;
+}
+
+/*My skills section*/
+.my_skills{
+    background-image: url("rain-316580_1280.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    overflow: hidden;
+    color: white;
+}
+#my_skills_heading{
+    color: white;
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+}
+#my_skills_heading h2{
+    font-size: 4em;
+}
+#left_column{
+    width: 45%;
+    float: left;
+    margin-right: 7%;
+    margin-top: 200px;
+    margin-left: 2%;
+    border: 7px double white;
+    margin-bottom: 200px;
+    padding: 1em;
+}
+#left_column h3{
+    font-size: 1.8em;
+    padding-bottom: .5em;
+}
+#left_column p{
+    font-size: 1.3em;
+    line-height: 1.3em;
+    
+}
+#right_column{
+    width: 40%;
+    float: left;
+    margin-top: 50px;
+}
+.right_column_text{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.right_column_text span{
+    margin: 5px 0;
+    
+}
+.right_column_bar{
+width: 100%;
+height: 15px;
+background-color: white;
+margin-bottom: 12px;
+border-radius: .2em;
+}
+
+/*My services section*/
+.my_services{
+    width: 100%;
+    background-color: rgb(17, 16, 16);
+    overflow: hidden;
+}
+.my_services_heading{
+    color: white;
+    text-align: center;
+    margin: auto;
+    margin-top: 30px;
+}
+.my_services_heading h2{
+    font-size: 4em;
+    color: white;
+}
+.my_services_heading h3{
+    color: white;
+
+}
+.my_services_heading_text{
+    color: white;
+    width: 60%;
+    text-align:center;
+    margin: auto;
+    margin-top: 50px;
+    font-size: 1.3em;
+}
+.my_services_heading_text p{
+    color: white;
+
+}
+.my_services_container{
+    color: white;
+    background-color: rgb(28, 31, 31);
+    border: 5px dashed white;
+    display: inline-block;
+    box-sizing: border-box;
+    float: left;
+    width: 25%;
+    margin-left: 6%;
+    margin-top: 60px;
+    height: 400px;
+    margin-bottom: 60px;
+    text-align: center;
+    padding: 1em;
+}
+.my_services_container i{
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+.my_services_container h3{
+    color: white;
+    font-size: 1.6em;
+    margin-bottom: .3em;
+}
+.my_services_container p{
+    color: white;
+
+}
+
+/*My client feedback section*/
+.my_client_feedback_section{
+    color: white;
+    background-image: url("question-mark-1872665_1920.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    overflow: hidden;
+}
+.my_client_feedback_heading{
+    text-align: center;
+    margin: auto;
+    margin-top: 60px;
+}
+.my_client_feedback_heading h2{
+    font-size: 4em;
+    color: white;
+}
+.my_client_feedback_heading h3{
+
+}
+.my_client_feedback_sliding_container{
+    margin-top: 70px;
+}
+.my_client_feedback_sliding_container img{
+    border-radius: 50%;
+    border: 12px solid red;
+    display: flex;
+    margin: auto;
+    margin-bottom: -80px;
+    overflow: visible;
+}
+.my_client_feedback_top_bar{
+    height: 13px;
+    width: 85%;
+    background-color: red;
+    margin: auto;
+}
+.my_client_feedback_contant{
+    width: 90%;
+    margin: auto;
+    background-color: rgb(41, 46, 46);
+    text-align: center;
+    margin-bottom: 70px;
+}
+.my_client_feedback_contant_heading{
+    
+}
+.my_client_feedback_contant_heading h2{
+    font-size: 2.2em;
+    padding-bottom: .1em;
+    padding-top: 2em;
+
+}
+.my_client_feedback_contant_heading p{
+    padding-bottom: 4em;
+}
+.my_client_feedback_contant_text{
+
+}
+.my_client_feedback_contant_text p{
+    width: 75%;
+    margin: auto;
+    font-size: 1.5em;
+    padding-bottom: 1.5em;
+}
+
+/*Contact Me section*/
+
+
+footer{
+    width: 100%;
+    float: left;
+    background-color: black;
+    color: white;
+    height: 50px;
+}
+footer p{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 900;
+    margin-top: 8px;
+}
